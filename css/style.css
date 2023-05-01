@@ -1035,24 +1035,6 @@ client Section
   }
 }
 
-@media (max-width: 575px) {
-  .section-title h2,
-  .header .nav-inner ul li a {
-    font-size: 35px;
-  }
-  .home-text h1 {
-    font-size: 30px;
-  }
-  .home-text h2 {
-    font-size: 18px;
-  }
-  .pp-header h3 {
-    font-size: 20px;
-  }
-  .pp-content {
-    width: calc(100% - 30px);
-  }
-}
 
 @media (max-width: 650px) {
   .box-container .box {
@@ -1084,6 +1066,70 @@ client Section
   .contact-info-item {
     margin: 0 0 30px;
   }
+  .section-title h2{
+    font-size: 30px;
+  }
+}
+
+
+@media (max-width: 575px) {
+  .section-title h2,
+  .header .nav-inner ul li a {
+    font-size: 35px;
+  }
+  .home-text h1 {
+    font-size: 30px;
+  }
+  .home-text h2 {
+    font-size: 18px;
+  }
+  .pp-header h3 {
+    font-size: 20px;
+  }
+  .pp-content {
+    width: calc(100% - 30px);
+  }
+  .section-title h2{
+    font-size: 30px;
+  }
+  
+}
+@media (max-width: 510px) {
+    .section-title h2{
+    font-size: 1.5rem;
+  }
+  .about-tabs{
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    margin: 20px 20px;
+  }
+  .btn-{
+    width: 90%;
+    margin: auto;
+  }
+  .tab-item{
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 420px) {
+    .section-title h2{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 358px) {
+    .section-title h2{
+    font-size: 1rem;
+  }
+  
+}
+@media (max-width: 300px) {
+    .section-title h2{
+    font-size: .8rem;
+  }
+  
 }
 
 #myBtn {
